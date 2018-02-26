@@ -25,22 +25,22 @@ compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar'
 ## 演示 
 
 运行效果图：    
-![预览图无右侧标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/no_right.png)<br>
-![预览图右侧文字标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/tv_right.png)<br>
-![预览图右侧图片标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/iv_right.png)<br>
+![预览图无右侧标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/no_right.png)
+![预览图右侧文字标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/tv_right.png)
+![预览图右侧图片标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/iv_right.png)
 
 
 ## 使用说明   
 1 将依赖 compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar' 拷入你的APP build文件中<br>
 2 project build中集成 <br>
-    allprojects {
-    		repositories {
-    			...
-    			maven { url 'https://jitpack.io' }
-    		}
-    	}
+    allprojects { <br>
+    		repositories { <br>
+    			... <br>
+    			maven { url 'https://jitpack.io' } <br>
+    		} <br>
+    	} <br>
     	<br>
-[![](https://jitpack.io/v/flyingsnowtiger/MyToolBarTitle.svg)](https://jitpack.io/#flyingsnowtiger/MyToolBarTitle)
+[![](https://jitpack.io/v/flyingsnowtiger/MyToolBarTitle.svg)](https://jitpack.io/#flyingsnowtiger/MyToolBarTitle)<br>
 3 在你要增加的标题栏的位置写入我的自定义控件的名字如:<br>
      <wbkj.mydefineview.MyTitileView
             android:layout_width="match_parent"
