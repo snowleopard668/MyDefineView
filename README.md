@@ -25,22 +25,23 @@ compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar'
 ## 演示 
 
 运行效果图：    
-![预览图]()
-![运行效果图]()
+![预览图无右侧标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/no_right.png)
+![预览图右侧文字标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/tv_right.png)
+![预览图右侧图片标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/iv_right.png)
 
 
 ## 使用说明   
 1 将依赖拷入你的APP build文件中
 2 project build中集成 maven { url 'https://jitpack.io' }
 [![](https://jitpack.io/v/flyingsnowtiger/MyToolBarTitle.svg)](https://jitpack.io/#flyingsnowtiger/MyToolBarTitle)
-3 在你要增加的标题栏的位置写入我的自定义控件的名字如
+3 在你要增加的标题栏的位置写入我的自定义控件的名字如:<br>
      <wbkj.mydefineview.MyTitileView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/my_tv_title"
             ></wbkj.mydefineview.MyTitileView>
 
-4 在使用的activity中找到该控件并对其进行相应的设置如:
+4 在使用的activity中找到该控件并对其进行相应的设置如:<br>
  my_tv_title = (MyTitileView) findViewById(R.id.my_tv_title);
 
         //设置左侧返回图标 不设置默认为白色箭头
