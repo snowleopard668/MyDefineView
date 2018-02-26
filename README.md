@@ -1,4 +1,4 @@
-## [MyTitle]() 简介
+## [MyTitle](https://github.com/flyingsnowtiger/MyToolBarTitle) 简介
 
 
 `MyTitle`是一款用于在Android设备5.0及以上系统版本沉浸式的标题栏和状态栏的背景颜色的设置,以及标题栏的左 中 右的文字,图标的设置和显示隐藏.
@@ -12,10 +12,10 @@
 - 支持标题栏背景色设置
 - 支持状态栏背景色的设置(注意: 纯白色或者纯黑色的状态栏颜色有可能与状态栏中的字体一致而显示不出来)
 
-GitHub地址： []
+GitHub地址： [https://github.com/flyingsnowtiger/MyToolBarTitle]
 
 ```groovy
-
+compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar'
 ```
 
 **Maven:**  
@@ -32,6 +32,7 @@ GitHub地址： []
 ## 使用说明   
 1 将依赖拷入你的APP build文件中
 2 project build中集成 maven { url 'https://jitpack.io' }
+[![](https://jitpack.io/v/flyingsnowtiger/MyToolBarTitle.svg)](https://jitpack.io/#flyingsnowtiger/MyToolBarTitle)
 3 在你要增加的标题栏的位置写入我的自定义控件的名字如
      <wbkj.mydefineview.MyTitileView
             android:layout_width="match_parent"
