@@ -25,8 +25,8 @@ GitHub地址： []
 ## 演示 
 
 运行效果图：    
-![预览图](https://raw.githubusercontent.com/crazycodeboy/TakePhoto/master/Screenshots/takephoto_preview.png)
-![运行效果图](https://raw.githubusercontent.com/crazycodeboy/TakePhoto/master/Screenshots/%E9%A2%84%E8%A7%88%E5%9B%BE.jpg)
+![预览图]()
+![运行效果图]()
 
 
 ## 使用说明   
