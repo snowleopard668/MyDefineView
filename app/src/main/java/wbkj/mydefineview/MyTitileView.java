@@ -65,7 +65,7 @@ public class MyTitileView extends RelativeLayout {
      }
      //设置中间标题的字体颜色
     public void setMiddleTvTitleColor(int color){
-        tv_title.setTextColor(color);
+        tv_title.setTextColor(getResources().getColor(color));
     }
     //设置背景色
     public void setBGColor(int color){
@@ -136,7 +136,8 @@ public class MyTitileView extends RelativeLayout {
     }
     //设置中间标题的字体颜色
     public void setRightTvTitleColor(int color){
-        tv_right_title.setTextColor(color);
+        tv_right_title.setTextColor(getResources().getColor(color));
+
     }
 
     //设置右侧图标菜单的显示和隐藏

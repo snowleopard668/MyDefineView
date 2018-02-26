@@ -32,15 +32,15 @@ public class MainActivity extends AppCompatActivity {
         //中部标题设置文字内容
         my_tv_title.setMiddleTvTitleText("自定义标题");
         //给中部标题设置文字颜色
-        my_tv_title.setMiddleTvTitleColor(R.color.white);
+        my_tv_title.setMiddleTvTitleColor(R.color.white_color);
 
         //设置标题栏的背景色
-        my_tv_title.setBGColor(R.color.black);
+        my_tv_title.setBGColor(R.color.colorAccent);
         //设置状态栏颜色
-        my_tv_title.setIsFullScreen(true,R.color.black);
+        my_tv_title.setIsFullScreen(true,R.color.colorAccent);
 
 
-      /* //显示右侧文字标题
+       //显示右侧文字标题
         my_tv_title.setRightTitleVisiable(true);
         //设置右标题文字
         my_tv_title.setRightTitileText("右标题");
@@ -51,7 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"点击右侧标题",Toast.LENGTH_LONG).show();
 
             }
-        });*/
+        });
+        //设置右侧标题文字颜色
+        my_tv_title.setRightTvTitleColor(R.color.white_color);
 
        /* //设置右侧图标菜单显示
         my_tv_title.setRightMenuVisiable(true);
