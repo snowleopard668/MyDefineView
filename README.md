@@ -1,4 +1,4 @@
-## [MyTitle](https://github.com/flyingsnowtiger/MyToolBarTitle) 简介
+## [MyTitle](https://github.com/flyingsnowtiger/MyDefineView) 简介
 
 
 `MyTitle`是一款用于在Android设备5.0及以上系统版本沉浸式的标题栏和状态栏的背景颜色的设置,以及标题栏的左 中 右的文字,图标的设置和显示隐藏.
@@ -12,10 +12,10 @@
 - 支持标题栏背景色设置
 - 支持状态栏背景色的设置(注意: 纯白色或者纯黑色的状态栏颜色有可能与状态栏中的字体一致而显示不出来)
 
-GitHub地址： [https://github.com/flyingsnowtiger/MyToolBarTitle]
+GitHub地址： [https://github.com/flyingsnowtiger/MyDefineView]
 
 ```groovy
-compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar'
+compile 'com.github.flyingsnowtiger:MyDefineView:v1.0'
 ```
 
 **Maven:**  
@@ -25,13 +25,13 @@ compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar'
 ## 演示 
 
 运行效果图：    
-![预览图无右侧标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/no_right.png)
-![预览图右侧文字标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/tv_right.png)
-![预览图右侧图片标题](https://github.com/flyingsnowtiger/MyToolBarTitle/blob/master/img/iv_right.png)
+![预览图无右侧标题](https://github.com/flyingsnowtiger/MyDefineView/blob/master/img/no_right.png)
+![预览图右侧文字标题](https://github.com/flyingsnowtiger/MyDefineView/blob/master/img/iv_right.png)
+![预览图右侧图片标题](https://github.com/flyingsnowtiger/MyDefineView/blob/master/img/tv_right.png)
 
 
 ## 使用说明   
-1 将依赖 compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar' 拷入你的APP build文件中<br>
+1 将依赖 compile 'com.github.flyingsnowtiger:MyDefineView:v1.0' 拷入你的APP build文件中<br>
 2 project build中集成 <br>
     allprojects { <br>
     		repositories { <br>
@@ -40,7 +40,6 @@ compile 'com.github.flyingsnowtiger:MyToolBarTitle:weichao1.0toolbar'
     		} <br>
     	} <br>
     	<br>
-[![](https://jitpack.io/v/flyingsnowtiger/MyToolBarTitle.svg)](https://jitpack.io/#flyingsnowtiger/MyToolBarTitle)<br>
 3 在你要增加的标题栏的位置写入我的自定义控件的名字如:<br>
      <wbkj.mydefineview.MyTitileView
             android:layout_width="match_parent"
