@@ -29,7 +29,7 @@ compile 'com.github.flyingsnowtiger:MyDefineView:v1.0'
 ![预览图右侧文字标题](https://github.com/flyingsnowtiger/MyDefineView/blob/master/img/iv_right.png)
 ![预览图右侧图片标题](https://github.com/flyingsnowtiger/MyDefineView/blob/master/img/tv_right.png)
 
-
+[![](https://jitpack.io/v/flyingsnowtiger/MyDefineView.svg)](https://jitpack.io/#flyingsnowtiger/MyDefineView)
 ## 使用说明   
 1 将依赖 compile 'com.github.flyingsnowtiger:MyDefineView:v1.0' 拷入你的APP build文件中<br>
 2 project build中集成 <br>
