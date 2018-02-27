@@ -1,7 +1,7 @@
-## [MyTitle](https://github.com/flyingsnowtiger/MyDefineView) 简介
+## [MyDefineView](https://github.com/flyingsnowtiger/MyDefineView) 简介
 
 
-`MyTitle`是一款用于在Android设备5.0及以上系统版本沉浸式的标题栏和状态栏的背景颜色的设置,以及标题栏的左 中 右的文字,图标的设置和显示隐藏.
+`MyDefineView`是一款用于在Android设备5.0及以上系统版本沉浸式的标题栏和状态栏的背景颜色的设置,以及标题栏的左 中 右的文字,图标的设置和显示隐藏.
 
 **V1.0**
 
